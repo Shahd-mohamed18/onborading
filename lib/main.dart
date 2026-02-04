@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Onboarding Demo',
       theme: ThemeData(primarySwatch: Colors.blue),
-      // home: const OnboardingScreen(),
-      home: WelcomeScreen(),
+      home: const OnboardingScreen(),
+      // home: WelcomeScreen(),
       // home: LoginScreen(),
       // home: VarificationEmail(),
     );
