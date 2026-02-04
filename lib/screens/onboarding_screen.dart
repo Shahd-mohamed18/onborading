@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onboard/screens/welcome_screen.dart';
 import 'home_screen.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -35,7 +36,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     if (currentPage == onboardingData.length - 1) {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomeScreen()),
+        MaterialPageRoute(builder: (context) => const WelcomeScreen()),
       );
     } else {
       _controller.nextPage(
