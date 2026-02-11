@@ -23,11 +23,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Onboarding Demo',
       theme: AppTheme.lightTheme,
-      // home: const OnboardingScreen(),
-      // // home: WelcomeScreen(),
-      // // home: LoginScreen(),
-      // // home: VarificationEmail(),
-      home: MainLayoutNavbar(),
+      home: const OnboardingScreen(),
+      // home: WelcomeScreen(),
+      // // // home: LoginScreen(),
+      // // // home: VarificationEmail(),
+      // home: MainLayoutNavbar(),
     );
   }
 }
